@@ -15,5 +15,5 @@ csv()
 })
 .on('done', (error) => {
   console.log('end')
-  fs.writeFileSync(outputJsonFile, JSON.stringify(buffer));
+  fs.writeFileSync(outputJsonFile, JSON.stringify(buffer,null,2));
 })
