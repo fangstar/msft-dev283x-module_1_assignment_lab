@@ -1,0 +1,8 @@
+to run
+
+npm init
+
+node csvToJson.js
+
+
+
